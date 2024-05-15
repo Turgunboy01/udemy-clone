@@ -6,7 +6,7 @@ const Card = ({ rating, img, title, price, sale_price, desc, peoples }) => {
     <div className="w-[260px]">
       <img src={img} alt="" className="w-full" />
       <h3 className=" font-bold ">{title}</h3>
-      <p className="text-[13px]">{desc.slice(0, 40)}....</p>
+      <p className="text-[13px]">{desc.slice(0, 40)}</p>
       <div className="flex items-center gap-2">
         <p className=" font-bold">{rating}</p>
         <p className="flex">
